@@ -6,28 +6,113 @@
     background-color: #dadae0;
   }*/
 
-  #block1 {
+  #entete {
     display: flex;
+    grid-column: 1 / 4;
+    grid-row: 1;
     border-bottom: 3px solid #000000;
-    padding-bottom: .3rem;
+    background-color: rgb(0, 132, 255);
+  }
+  
+  h1 {
+    font-size: 25px;
   }
 
-  #logo {
-    max-width: 100px;
-    height: auto;
-    border-radius: 50%;
+  #tete-page {
+    display: flex;
+    align-items: center;
     margin-right: auto;
-    }
-    
-  #button-en-tete {
-    list-style-type: none;
-    margin-top: auto;
   }
 
-  .item-entete {
-    display: inline;
-    margin-left: 10px;
+  #logo-entete {
+      max-width: 40px;
+      height: auto;
+      /*margin-right: auto;*/
+    }
+
+  #gfcstat-enseigne{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
   }
+  
+        /*#logo {
+        max-width: 100px;
+        height: auto;
+        border-radius: 50%;
+        margin-right: auto;
+      }*/
+
+      #gfcstat {
+        font-family: sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: #fd9904;
+      }
+    
+  .button-en-tete {
+    /*width: 100%;*/
+    display: flex;
+    align-items: center;
+  }
+
+      .jss238 {
+        padding: 12px;
+      }
+
+          .MuiTypography-displayBlock {
+            display: block;
+          }
+
+          .MuiTypography-body1 {
+            font-size: 1rem;
+            font-family: sans-serif;
+            font-weight: 400;
+            line-height: 1.625rem;
+          }
+
+          .MuiTypography-root {
+            margin: 0;
+          }
+
+              .jss240 {
+                padding: 8px 0;
+                font-size: 16px;
+                white-space: nowrap;
+                text-decoration: none;
+              }
+
+              .jss239 {
+                border-bottom: 3px solid #fd9904;
+              }
+
+              .jss273 {
+                color: rgba(0, 0, 0, 0.92);
+                /*font-family: Montserrat;*/
+                text-decoration: none;
+              }
+  
+  #social{
+    width: 65px;
+    display: flex;
+    align-items: center;
+  }
+  
+      .icone{
+        width: 30px;
+      }
+          .icone-fb {
+            max-width: 25px;
+            height: auto;
+            margin-right: auto;
+          }
+
+          .icone-tt {
+            max-width: 25px;
+            height: auto;
+            margin-right: auto;
+          }
 
   #block2 {
     display: flex;
@@ -70,15 +155,16 @@
   }
 
   #PiedPage {
-    background-color: gray;
+    /*background-color: gray;*/
+    background-color: rgb(0, 132, 255);
   }
-  
   
   .center_foot {
     text-align: center;
-    color: #fff;
+    color: #fd9904;
     font-size: 12px;
-  } 
+    font-weight: bold;
+  }
 
   @media (max-width: 500px) {
     

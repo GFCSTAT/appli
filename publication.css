@@ -1,0 +1,211 @@
+  /*#main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    background-color: #dadae0;
+  }*/
+
+  #entete {
+    display: flex;
+    grid-column: 1 / 4;
+    grid-row: 1;
+    border-bottom: 3px solid #000000;
+    background-color: rgb(0, 132, 255);
+  }
+  
+  h1 {
+    font-size: 25px;
+  }
+
+  #tete-page {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+  }
+
+  #logo-entete {
+      max-width: 40px;
+      height: auto;
+      /*margin-right: auto;*/
+    }
+
+  #gfcstat-enseigne{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 1%;
+  }
+  
+        /*#logo {
+        max-width: 100px;
+        height: auto;
+        border-radius: 50%;
+        margin-right: auto;
+      }*/
+
+      #gfcstat {
+        font-family: sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: #fd9904;
+      }
+    
+  .button-en-tete {
+    /*width: 100%;*/
+    display: flex;
+    align-items: center;
+  }
+
+      .jss238 {
+        padding: 12px;
+      }
+
+          .MuiTypography-displayBlock {
+            display: block;
+          }
+
+          .MuiTypography-body1 {
+            font-size: 1rem;
+            font-family: sans-serif;
+            font-weight: 400;
+            line-height: 1.625rem;
+          }
+
+          .MuiTypography-root {
+            margin: 0;
+          }
+
+              .jss240 {
+                padding: 8px 0;
+                font-size: 16px;
+                white-space: nowrap;
+                text-decoration: none;
+              }
+
+              .jss239 {
+                border-bottom: 3px solid #fd9904;
+              }
+
+              .jss273 {
+                color: rgba(0, 0, 0, 0.92);
+                /*font-family: Montserrat;*/
+                text-decoration: none;
+              }
+  
+  #social{
+    width: 65px;
+    display: flex;
+    align-items: center;
+  }
+  
+      .icone{
+        width: 30px;
+      }
+          .icone-fb {
+            max-width: 25px;
+            height: auto;
+            margin-right: auto;
+          }
+
+          .icone-tt {
+            max-width: 25px;
+            height: auto;
+            margin-right: auto;
+          }
+
+  #block1 {
+    height: 150px;
+    display: flex;
+    /*align-items: center;*/
+    background-color: rgb(0, 132, 255);
+  }
+
+      #key-word {
+        font-family: sans-serif;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-right: 1%;
+        padding-bottom: 1%;
+      }
+  
+      #photo-du-siege {
+        width: 185;
+        height: 105px;
+        margin-left: auto;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-right: 1%;
+      }
+
+      .cadre-photo {
+        box-shadow: 0 0 0.5rem rgb(255, 166, 0);
+      }
+  
+  #block2 {
+    display: flex;
+    /*margin-left: 5rem;*/
+  }
+
+  .page_Cadre {
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 0.3rem #999;
+    text-align: justify;
+  }
+
+  #page6 {
+    flex-direction: column;
+    width: 60%;
+  }
+
+  #logo2 {
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+  }
+
+  #page7 {
+    flex-direction: column;
+    width: 40%;
+  }
+
+  #tofRA {
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 120px;
+    height: auto;
+    border-radius: 10%;
+    display: block;
+  }
+
+  #PiedPage {
+    /*background-color: gray;*/
+    background-color: rgb(0, 132, 255);
+  }
+  
+  .center_foot {
+    text-align: center;
+    color: #fd9904;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 500px) {
+    
+    #logo {
+      max-width: 50px;
+      height: auto;
+      border-radius: 50%;
+    }
+
+    .center_foot {
+      text-align: center;
+      color: #fff;
+      font-size: 10px;
+    }
+
+  }
